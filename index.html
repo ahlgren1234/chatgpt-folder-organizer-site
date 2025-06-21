@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Organize your ChatGPT chats with folders. Simple, colorful and intuitive." />
+  <title>ChatGPT Folder Organizer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1e1e2f;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #28293d;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .cta-button {
+      background: #10a37f;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .feature {
+      background: #2d2f44;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+
+    .feature h3 {
+      margin-top: 0;
+      color: #10a37f;
+    }
+
+    .screenshots img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .screenshots {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.screenshots h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.grid img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.grid img:hover {
+  transform: scale(1.03);
+}
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1b29;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    a {
+      color: #10a37f;
+    }
+
+    @media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>ChatGPT Folder Organizer</h1>
+    <p>Organize your ChatGPT conversations with colorful folders. Rename, drag and drop, back up your structure – and stay in flow.</p>
+    <a class="cta-button" href="https://chromewebstore.google.com/detail/chatgpt-folder-organizer/kmcbbbkhhmbfhbhiimaejllgepilimom" target="_blank">Add to Chrome</a>
+  </header>
+
+  <section>
+    <h2>Features</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>📁 Create & Organize Folders</h3>
+        <p>Create folders, pick colors, and keep your chats clean and sorted.</p>
+      </div>
+      <div class="feature">
+        <h3>📝 Rename Chats</h3>
+        <p>Give your conversations meaningful titles for quick access.</p>
+      </div>
+      <div class="feature">
+        <h3>📤 Backup & Restore</h3>
+        <p>Export and import your entire structure as JSON backups.</p>
+      </div>
+      <div class="feature">
+        <h3>🐛 Bug Reports & Feedback</h3>
+        <p>Built-in feature requests and bug reporting straight from the app.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="screenshots">
+    <h2>Screenshots</h2>
+    <div class="grid">
+        <img src="images/01.png" alt="Screenshot 1">
+        <img src="images/02.png" alt="Screenshot 2">
+        <img src="images/03.png" alt="Screenshot 3">
+        <img src="images/04.png" alt="Screenshot 4">
+      </div>
+  </section>
+
+  <section>
+    <h2>Why I Built This</h2>
+    <p>As a power user of ChatGPT, I needed a way to stay organized. With growing numbers of chats, it became hard to find anything. This extension was born out of that frustration – and now it’s here to help others too.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 ChatGPT Folder Organizer. <a href="https://github.com/ahlgren1234">GitHub</a> | <a href="https://chromewebstore.google.com/detail/chatgpt-folder-organizer/kmcbbbkhhmbfhbhiimaejllgepilimom">Chrome Web Store</a></p>
+    <p>Made with ❤️ by <a href="https://peterahlgren.com" target="_blank">Peter Ahlgren</a></p>
+
+  </footer>
+</body>
+
+</html>
